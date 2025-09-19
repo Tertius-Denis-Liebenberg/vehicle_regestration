@@ -83,7 +83,6 @@ namespace vehicle_regestration.Pages
                 cmd.ExecuteNonQuery();
             }
 
-            // Clear modal fields
             txtContractorName.Value = "";
             txtContractorNumber.Value = "";
             txtContractorEmail.Value = "";
